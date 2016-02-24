@@ -1,6 +1,6 @@
 {
   "name": "repo-latest-commit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Get the latest commit info of a git repository.",
   "license": "MIT",
   "repository": "egoist/repo-latest-commit",
