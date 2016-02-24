@@ -12,9 +12,9 @@ test('main', t => {
 			git config user.email "you@example.com"
 	  	git config user.name "Your Name"
 			git add -A
-			git commit -m "fuck"
+			git commit -m "let it rock"
 		`)
-		t.is(commit('temp')[1], 'fuck')
+		t.is(commit('temp')[1], 'let it rock')
 		child.execSync('rm -rf temp')
 	} catch (e) {
 		child.execSync('rm -rf temp')

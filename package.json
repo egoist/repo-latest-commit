@@ -22,7 +22,9 @@
     "commit",
     "git"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "split-on-first-space": "^0.1.0"
+  },
   "devDependencies": {
     "ava": "^0.10.0",
     "xo": "^0.12.1"
