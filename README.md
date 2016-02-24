@@ -13,10 +13,10 @@ $ npm install --save repo-latest-commit
 ```js
 const latestCommit = require('repo-latest-commit')
 
-repoLatestCommit()
+latestCommit()
 //=> [ '7d411e703b6815a9dfdbaf574845dc681b5bca6a', 'commit message' ]
 
-repoLatestCommit('../another-directory')
+latestCommit('../another-directory')
 ```
 
 ## License
