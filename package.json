@@ -1,0 +1,33 @@
+{
+  "name": "repo-latest-commit",
+  "version": "0.1.0",
+  "description": "Get the latest commit info of a git repository.",
+  "license": "MIT",
+  "repository": "egoist/repo-latest-commit",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "commit",
+    "git"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.10.0",
+    "xo": "^0.12.1"
+  },
+  "xo": {
+    "semicolon": false
+  }
+}
