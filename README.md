@@ -14,7 +14,13 @@ $ npm install --save repo-latest-commit
 const latestCommit = require('repo-latest-commit')
 
 latestCommit()
-//=> [ '7d411e703b6815a9dfdbaf574845dc681b5bca6a', 'commit message' ]
+<!-- {
+  message: 'let it rock\n    \n    wow',
+  commit: 'ad4e3a8c6797300cf18665e421de9763ba8ef3fa',
+  author: 'Your Name',
+  email: 'you@example.com',
+  date: 'Thu Oct 6 17:38:00 2016 +0800' 
+} -->
 
 latestCommit('../another-directory')
 ```

@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "jest && eslint index.js __test__/*"
   },
   "files": [
     "index.js"
@@ -22,14 +22,15 @@
     "commit",
     "git"
   ],
-  "dependencies": {
-    "split-on-first-space": "^0.1.0"
-  },
   "devDependencies": {
-    "ava": "^0.10.0",
-    "xo": "^0.12.1"
+    "eslint": "^3.7.1",
+    "eslint-config-egoist": "^1.0.4",
+    "jest-cli": "^16.0.1"
   },
-  "xo": {
-    "semicolon": false
+  "eslintConfig": {
+    "extends": "egoist/esnext"
+  },
+  "dependencies": {
+    "split-on-first-occurrence": "^1.0.2"
   }
 }
